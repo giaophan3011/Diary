@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<p id="test">test</p>
+	<p id="test1">test1</p>
+
+	<h1 class="heading">heading0</h1>
+	<h1 class="heading">heading1</h1>
+
+	<h2>text</h2>
+	<h2>text1</h2>
+	<script>
+		document.getElementById("test").innerHTML="hello";
+		document.getElementsByClassName("heading")[0].style.color="red";
+		document.getElementsByTagName("h2")[1].style.color="green";
+	</script>
+</body>
+</html>

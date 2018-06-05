@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>To-do List</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+</head>
+<body style="background-color: #FFFACD;">
+<nav id="header-nav" class="navbar navbar-default">
+			<!--We give the nav tag ID. Class navbar and navbar-default is given by bootstrap>-->
+			<div class="container">
+<!--First, we have a nav  that we can define the background color. Then all of the contents are wrapped up in the container-->
+				 <div class="navbar-header">
+      				<div class="navbar-brand">
+      					<h1 style="background-color:#FFC0CB;">To Do List</h1>
+      				
+      				</div>
+    			</div>
+
+			</div>	
+
+		</nav>
+You have saved your to-do list as below:
+<ol>
+<li>${work1}</li>
+<li>${work2}</li>
+<li>${work3}</li>
+</ol>
+<p>Keep going!</p>
+</body>
+</html>

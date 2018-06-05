@@ -1,0 +1,78 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Human Resources Management</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<!--We give the nav tag ID. Class navbar and navbar-default is given by bootstrap>-->
+			<div class="container">
+<!--First, we have a nav  that we can define the background color. Then all of the contents are wrapped up in the container-->
+				 <div class="navbar-header">
+				 	<!-- we add this div with navbar-header class to have a better mobile display-->
+      				<div class="navbar-brand">
+      					<h1>HRM Solution</h1>
+      					<p><i>For your own business</i></p>
+      				</div>
+    			</div>
+			</div>	
+		</nav>
+	</header>
+	<div class="container">
+		<div class="jumbotron">
+			<img src="https://gethppy.com/wp-content/uploads/2015/08/4-Tips-for-Human-Resource-Management-Success-Img.jpg" alt="jumbotron" class="img-responsive">
+			<!--class img-responsive makes the width and size of image change proportionally when we change the width of the browser-->
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<a href="menu-categories"><div id="menu"><span>Menu</span></div></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<a href=""><div id="specials"><span>Specials</span></div></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<a href="https://goo.gl/maps/WYoJfaFXF7T2">
+				<!-- this a tag directs me to the map GG page when I click in the hyperlink-->
+					<div id="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.6020612977031!2d24.776334516108502!3d60.22041508197942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df682c83da8eb%3A0x8b63d26dbb3f529d!2sKilonrinne+10%2C+02610+Espoo!5e0!3m2!1svi!2sfi!4v1527831107983" width="100%" height="250" frameborder="0" 1style="border:0" allowfullscreen></iframe>
+						<!--this code embeds the small frame of the map inside my webpage-->
+						<span >Map</span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div> <!-- End of the tile codes-->
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4" style="background-color: red;">
+					Lounas: Ma-Pe 11-16<br>Illallinen: Ma-Pe 16-20<br>Viikonloppu: La-Su 12-21		
+				</div>
+				<div class="col-sm-4">
+					&quotLoistava lounas-buffet ja erinomaisen iloista palvelua!&quot
+				</div>
+				<div class="col-sm-4">
+					Fredrikinkatu 46<br>00100 Helsinki	
+				</div>
+			</div>			
+		</div>
+		<div>&copyGiao Phan 4.6.2018</div>		
+	</footer>
+	<!-- jQuery (Bootstrap JS plugins depend on it)-->
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

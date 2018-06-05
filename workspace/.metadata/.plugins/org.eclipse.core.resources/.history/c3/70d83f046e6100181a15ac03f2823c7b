@@ -1,0 +1,15 @@
+package webapp.springmvc;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+//We tell Spring that this is the controller that handle all of the requests.
+public class broker {
+	@RequestMapping(value="/login")
+	//Map the url: localhost:8080/spring-mvc/login
+	public String sayHi(){
+		return "Hi";
+	}
+
+}

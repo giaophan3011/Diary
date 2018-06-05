@@ -1,0 +1,81 @@
+*{
+	box-sizing: content-box;
+}
+
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+
+}
+#header-nav{
+	background-color: #FFDAB9;
+	border-radius: 0;
+	border: 0;
+	height:170px;
+
+}
+#logo{
+	background: url('../logo-small.gif') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin:10px 15px 10px 0;
+}
+.navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand h1{
+	color: #61122f;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 10px;
+}
+ul#nav-list{
+	padding: 30px 10px 30px 10px;
+}
+body div.container{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+div.row div {
+	box-sizing: border-box;
+	width: 33,33%;
+	text-align: center;
+}
+#menu, #map, #specials{
+	width: 100%;
+	border: 2px solid black;
+	height:250px;
+}
+#menu{
+	background: url("http://kb4images.com/images/goodmorning-wallpaper/36415242-goodmorning-wallpaper.jpg") no-repeat;
+	background-position: center;
+
+}
+#specials{
+	background: url("http://www.wheatfoods.org/sites/default/files/recipes/bunny-burrito-bites-250px.jpg?1472603294") no-repeat;
+	background-position: center;
+
+}
+#menu span, #specials span, #map span{
+	position: absolute;
+	bottom:0;
+	right:0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	opacity: .7;
+
+}
+.panel-footer{
+	background-color: #FFDAB9;
+	color: black;
+	height: 250px;
+}
+@media(min-width: 992px){
+	.jumbotron{
+		background-image: url("http://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/food-dining/jalan-sultan-ismail-dining/allParagraphs/BucketComponent/ListingContainer/01118/image/1200px-villa-danielli-6.jpg") no-repeat;
+	}
+}
